@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - **Solution URL:** [https://github.com/ademto/rest-countries-api](https://github.com/ademto/rest-countries-api)
-- **Live Site URL:** [https://rest-countries-ademto.vercel.app](https://rest-countries-ademto.vercel.app)
+- **Live Site URL:** [https://rest-countries-ademto.netlify.app](https://rest-countries-ademto.netlify.app)
 
 ---
 
@@ -47,19 +47,18 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5
-- CSS custom properties
+- Tailwind CSS
 - Flexbox & CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/)
-- [Next.js](https://nextjs.org/)
-- [Styled-components](https://styled-components.com/)
-- REST API integration
+- [Vite](https://vitejs.dev/)
+- [REST Countries API](https://restcountries.com/)
 
 ### What I learned
 
 - How to integrate a RESTful API in a real-world app
-- Theme toggling (dark/light) using context and styled-components
-- Dynamic routing with Next.js
+- Theme toggling (dark/light) using custom logic and Tailwind classes
+- React Router for dynamic routing
 - Filtering and searching through API data efficiently
 
 #### Example code
@@ -77,21 +76,21 @@ const fetchCountries = async () => {
 I want to improve:
 
 - Accessibility (keyboard navigation and ARIA labels)
-- Unit testing components
-- Server-side rendering (SSR) performance tweaks with Next.js
+- Unit testing with Jest and React Testing Library
+- Code splitting and lazy loading components
 
 ### Useful resources
 
-- [REST Countries API](https://restcountries.com/) – API used to fetch country data
-- [Styled Components Docs](https://styled-components.com/docs) – Helped me style components with themes
-- [Next.js Routing](https://nextjs.org/docs/routing/introduction) – For implementing dynamic detail pages
+- [REST Countries API](https://restcountries.com/)
+- [React Router Docs](https://reactrouter.com/en/main)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs)
 
 ---
 
 ## Author
 
 - Website – [emmanueladetoro.com](https://emmanueladetoro.com)
-- Frontend Mentor – [@ademto](https://www.frontendmentor.io/profile/adegboyega95)
+- Frontend Mentor – [@ademto](https://www.frontendmentor.io/profile/ademto)
 - Twitter – [@ademto\_](https://twitter.com/ademto_)
 
 ---
