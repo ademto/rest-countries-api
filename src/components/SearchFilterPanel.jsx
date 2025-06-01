@@ -12,9 +12,9 @@ export default function SearchFilterPanel() {
 
     return (
         <div className="flex items-center justify-between my-10">
-            <div className="shadow-sm p-4 bg-white flex items-center gap-5 w-96">
+            <div className="shadow-sm p-4 bg-white dark:bg-dark-elements dark:text-white rounded-sm flex items-center gap-5 w-96">
                 <FaSearch />
-                <input className="w-full outline-0" type="text" name="search" id="search" placeholder="Search for a country"/>
+                <input className="w-full outline-0 text-white" type="text" name="search" id="search" placeholder="Search for a country"/>
             </div>
             <div className=''>
                 <Select

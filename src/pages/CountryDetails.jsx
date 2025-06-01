@@ -15,8 +15,8 @@ export default function CountryDetails() {
                 Back
             </Link>
             <div className="flex items-center gap-20 mt-20 h-96">
-                <img className="h-full" src={country.flags.png} alt="" />
-                <div className="">
+                <img className="w-full h-full" src={country.flags.png} alt="" />
+                <div className="w-full">
                     <h2 className="font-bold text-3xl">{country.name}</h2>
                     <div className="flex gap-25 mt-5">
                         <div className="leading-8">
