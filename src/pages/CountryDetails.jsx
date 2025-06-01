@@ -10,7 +10,7 @@ export default function CountryDetails() {
     console.log(country)
     return (
         <div className="container mx-auto px-5 xl:px-0 dark:text-white">
-            <Link to=".." className="w-30 shadow-[0_3px_10px_rgb(0,0,0,0.2)] bg-dark-elements rounded-lg flex items-center px-4 py-2 mt-10 gap-2">
+            <Link to=".." className="w-30 shadow-[0_3px_10px_rgb(0,0,0,0.2)] dark:bg-dark-elements rounded-lg flex items-center px-4 py-2 mt-10 gap-2">
                 <FaArrowLeftLong />
                 Back
             </Link>
