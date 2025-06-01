@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom"
 export default function Card({ data }) {
     const countryName = data.name
     return (
-        <Link to={`/${countryName}`} className="bg-white dark:bg-dark-elements w-72 shadow-sm rounded-sm">
+        <Link to={`/${countryName}`} className="bg-white dark:bg-dark-elements shadow-sm rounded-sm">
             <img className="w-full h-45 rounded-t-sm" src={data.flags.png} alt="" />
             <div className="p-6 dark:text-white">
                 <h2 className="font-bold text-2xl mb-4">{data.name}</h2>

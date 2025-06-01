@@ -27,7 +27,7 @@ export default function Home() {
         }, 500);
     };
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto px-5 xl:px-0">
             <SearchFilterPanel />
             <InfiniteScroll
             dataLength={items.length}
@@ -40,7 +40,7 @@ export default function Home() {
                 </p>
             }
             >
-            <div className="grid grid-cols-4 gap-10">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
                 {items.map((item, index) => (
                 <Card key={index} data={item} />
                 ))}
